@@ -1,0 +1,101 @@
+---
+title: "Quiz1_your_name"
+author: "Ladan Tazik"
+date: "2022-12-06"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#### Question 1 - Multiple Choice Questions
+
+Put your answers for MC questions in the table below;
+
+MC   answer
+---  ---
+(a)           
+(b)
+(c)
+(d)
+(e)
+(f)
+
+
+
+#### Q2 - Bootstrapping
+
+```{r, echo = FALSE}
+x <- c(78, 86, 97, 91, 83, 89, 92, 88, 79, 68)
+x
+```
+
+part a)
+```{r, echo = TRUE}
+#write your code here
+```
+
+part b)
+
+```{r, echo = TRUE}
+#write your code here
+
+
+```
+
+part c) write your answer here
+
+
+
+#### Q3 - GLM
+```{r, echo= TRUE}
+#install.package("mlbench") if needed
+library(mlbench)
+data("PimaIndiansDiabetes2", package = "mlbench")
+
+mydata <- PimaIndiansDiabetes2
+
+```
+
+part a) 
+
+<!-- your answer -->
+
+part b) 
+
+```{r, echo= TRUE}
+str(mydata)
+#put your code here
+
+```
+
+part c)
+```{r, echo= TRUE}
+#put your code here
+
+```
+
+part d)
+
+<!-- your answer -->
+
+
+part e) 
+```{r, echo= TRUE}
+#put your code here
+
+```
+
+part f) 
+```{r, echo= TRUE}
+?step()
+#put your code here
+
+```
+
+part g) 
+```{r, echo= TRUE}
+#put your code here
+
+```
